@@ -12,6 +12,7 @@ class MainClass
         Console.WriteLine("\tМне 27 лет");
         Console.WriteLine($"\tMy name is \n {MyName}");
         Console.WriteLine("\u0040");
+        Console.WriteLine("\x23");
         Console.ReadKey();
     }
 }
