@@ -2,24 +2,18 @@
 
 class MainClass
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        const string MyName = "Jane";
 
-        Console.WriteLine(MyName);
+        string MyName = "Jane";
+        byte MyAge = 27;
+        bool HaveIApet = true;
+        double MyShoeSize = 37.5;
 
-        Console.WriteLine("\tПривет, мир");
-        Console.WriteLine("\tМне 27 лет");
-        Console.WriteLine($"\tMy name is \n {MyName}");
-        Console.WriteLine("\u0040");
-        Console.WriteLine("\x23\n");
+        Console.WriteLine("My name is " + MyName);
+        Console.WriteLine("MyAge " + MyAge);
+        Console.WriteLine("Do I have a pet? " + HaveIApet);
+        Console.WriteLine("My shoe size is " + MyShoeSize);
 
-        Console.WriteLine(true);
-        Console.WriteLine(false);
-        Console.WriteLine(5);
-        Console.WriteLine(0x0A);
-        Console.WriteLine(0b11);
-        Console.WriteLine(5.5);
-        Console.ReadKey();
     }
 }
