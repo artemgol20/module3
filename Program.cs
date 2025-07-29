@@ -1,9 +1,15 @@
-﻿class MainClass
+﻿using System;
+
+class MainClass
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        string MyName;
-        MyName = "Jane";
-        Console.WriteLine(MyName);
+
+        string myName;
+        myName = "Artem";
+
+        Console.WriteLine(myName);
+
+        Console.ReadKey();
     }
 }
